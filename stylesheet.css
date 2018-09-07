@@ -1,0 +1,48 @@
+/*******************************
+            Home Page
+*******************************/
+.home{
+  background-color: grey;
+  height: 100%;
+  position: absolute;
+  background-image: url("C:/Users/navarrra/Documents/GitHub/Beer-N-Munchies/BeerNMunchies pics/homeback.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -20em;
+}
+
+.backgroundoverlay{
+  position: absolute;
+  background-color: rgba(0, 0, 0, .5);
+  height: 100%;
+  width: 100%;
+  margin-left: -1em;
+}
+
+.midtitle{
+  color: rgba(255, 255, 255, .9);
+  margin-top: 55%;
+  font-size: 60px;
+  font-family: adobe arabic;
+  font-style: italic;
+  margin-right: .3em;
+}
+
+/******************************
+          top bar
+******************************/
+
+.toptitle{
+  font: 27px segoe script;
+  color:white;
+  margin: .4em .5em 0 0;
+}
+
+.menuicon{
+  position: fixed;
+  width: 2.7em;
+  height: 2.7em;
+  margin: -.4em .5em;
+  background-image: url("C:/Users/navarrra/Documents/GitHub/Beer-N-Munchies/BeerNMunchies pics/menu.png");
+  background-size: contain;
+}
