@@ -3,24 +3,24 @@
 const menuBtn = document.querySelector(".menuicon");
 const menuOverlay = document.querySelector(".menuoverlay");
 const closeBtn = document.querySelector(".close");
-
+const menuList = document.querySelectorAll(".slideitem");
+const slideOutList = document.querySelector("#slideoutlist");
 const container = document.querySelector(".home");
 
 function menuSlide(){
-  const menuList = document.querySelectorAll(".slideitem");
+
    menuOverlay.classList.toggle("openmenu");
 
-   for(let i=0; i<menuList.length; i++){
-     setTimeout(function(){
-       console.log([i]);
-        menuList[i].style.display = "block";
-     }, 0);
-    };
+     if(menuOverlay.classList.contains("openmenu")){
 
+       slideOutList.classList.add("fadeinlist");
+
+     }else{
+
+       slideOutList.classList.remove("fadeinlist");
+
+     }
 };
-
-
-
 
 menuBtn.addEventListener("click", menuSlide);
 closeBtn.addEventListener("click", menuSlide);
