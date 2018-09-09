@@ -21,11 +21,26 @@
 
 .midtitle{
   color: rgba(255, 255, 255, .8);
-  margin-top: 70%;
+  margin-top: 5em;
   font-size: 60px;
   font-family: adobe arabic;
   font-style: italic;
   margin-right: .3em;
+  opacity: 0;
+  animation: fadeintitle .8s ease-in both;
+}
+
+@keyframes fadeintitle {
+  from{
+    opacity: 0;
+
+    margin-right:.35em
+  }
+  to{
+    opacity: 1;
+
+    margin-right: .3em;
+  }
 }
 
 /******************************
@@ -147,17 +162,19 @@
 
   .midtitle{
     font-size: 80px;
-    margin-top: 5em;
     margin-right: 1em;
   }
   .menuicon{
     display:block;
   }
 
-  .openmenu{
-    left:0%;
+  .menuoverlay{
+    width: 50%;
   }
 
+  #slideoutlist{
+    width: 50%;
+  }
 
 }
 
@@ -184,13 +201,13 @@
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .toptitle{
-    margin-top: .2em;
+    margin-top: .3em;
     font-size: 45px;
   }
 
   .midtitle{
     margin-right: 2.5em;
-    margin-top: 3em;
+    
     font-size: 100px;
   }
 }
