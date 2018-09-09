@@ -4,7 +4,7 @@
 .home{
   background-color: grey;
   height: 768px;
-  position: absolute;
+  position: relative;
   background-image: url("file:///C:/Users/navarrra/Documents/GitHub/Beer-N-Munchies/BeerNMunchies pics/homeback.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@
 }
 
 .midtitle{
-  color: rgba(255, 255, 255, .9);
+  color: rgba(255, 255, 255, .8);
   margin-top: 70%;
   font-size: 60px;
   font-family: adobe arabic;
@@ -61,6 +61,50 @@
   margin-left: 1em;
 }
 
+/************************
+      slide out menu
+*************************/
+
+.menuoverlay{
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  margin-left:-1em;
+  background-color: black;
+  overflow-y: hidden;
+  z-index: 1;
+  left:-90%;
+  transition: left .3s;
+}
+
+.openmenu{
+  left:0;
+}
+
+.slideoutlist{
+  position: fixed;
+  margin-top: 3em;
+  width: 90%;
+}
+
+.slideitem{
+  display: fixed;
+  margin-top: 1em;
+  background-color: black;
+  text-align: center;
+  font-size: 2em;
+  display:none;
+}
+
+.close{
+  position: fixed;
+  width: 1.5em;
+  height: 1.5em;
+  margin: .5em 1em;
+  background-image: url("file:///C:/Users/navarrra/Documents/GitHub/Beer-N-Munchies/BeerNMunchies pics/close.png");
+  background-size: contain;
+  z-index: 3;
+}
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
@@ -80,6 +124,10 @@
   }
   .menuicon{
     display:block;
+  }
+
+  .openmenu{
+    left:0%;
   }
 
 
