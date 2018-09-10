@@ -1,6 +1,10 @@
-/*******************************
-            Home Page
-*******************************/
+/*******************************************************************************************
+
+                                            Home Page
+
+*******************************************************************************************/
+
+
 .home{
   background-color: grey;
   height: 768px;
@@ -43,9 +47,15 @@
   }
 }
 
+
+
 /******************************
+
           top bar
+
 ******************************/
+
+
 
 .toptitle{
   position: absolute;
@@ -62,6 +72,7 @@
   margin: .7em .5em;
   background-image: url("file:///C:/Users/navarrra/Documents/GitHub/Beer-N-Munchies/BeerNMunchies pics/menu.png");
   background-size: contain;
+  z-index: 1;
 }
 
 .lgviewmenu{
@@ -77,17 +88,19 @@
 }
 
 /************************
+
       slide out menu
+
 *************************/
 
 .menuoverlay{
-  position: absolute;
+  position: fixed;
   width: 90%;
   height: 100%;
   margin-left:-1em;
   background-color: black;
   overflow-y: hidden;
-  z-index: 1;
+  z-index: 2;
   left:-90%;
   transition: left .3s;
 }
@@ -149,6 +162,37 @@
     100% {opacity:1;}
   }
 
+/*************************************************************************************
+
+                                      About
+
+**************************************************************************************/
+
+.about{
+  background-color: #F8F8F8;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.abouttop{
+  margin-top: 1.2em;
+}
+
+.abouttitle{
+  font-style: italic;
+}
+
+.aboutsubtitle{
+  font: 27px segoe script;
+  color:black;
+  margin: -.3em 0em 0 0;
+}
+
+
+
+
+
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   .home{
@@ -207,7 +251,7 @@
 
   .midtitle{
     margin-right: 2.5em;
-    
+    margin-top: 3em;
     font-size: 100px;
   }
 }

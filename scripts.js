@@ -12,7 +12,7 @@ const body = document.querySelector(".home");
 //Sliding menu
 function menuSlide(){
    menuOverlay.classList.toggle("openmenu");
-     if(!menuOverlay.classList.contains("openmenu")){
+     if(menuOverlay.classList.contains("openmenu")){
        slideOutList.classList.add("fadeinlist");
      }else{
        slideOutList.classList.remove("fadeinlist");
