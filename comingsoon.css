@@ -1,0 +1,63 @@
+.background{
+  position: absolute;
+  background-color: grey;
+  top:0;
+  bottom: 0;
+  right:0;
+  left:0;
+  background-image: url("BeerNMunchies pics/bar.JPEG");
+  background-position: right;
+}
+
+.title{
+  margin-top: 70%;
+  text-align: center;
+  font: 30px segoe script;
+  color: white;
+}
+
+.subtitle{
+  text-align: center;
+  color: rgba(255, 255, 255, .8);
+  font-family: adobe arabic;
+  font-size: 30px;
+  margin-top: -.5em;
+}
+
+.instagram{
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("BeerNMunchies pics/instagram.png");
+  background-size: cover;
+}
+
+.instagram:hover{
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+.background{
+  background-size: cover;
+  }
+
+  .title{
+      margin-top: 50%;
+      font-size: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+.title{
+    margin-top: 20%;
+    font-size:70px;
+  }
+
+.subtitle{
+    margin-top: -1em;
+    font-size:55px;
+}
+
+}
