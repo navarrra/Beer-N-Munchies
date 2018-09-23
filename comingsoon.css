@@ -5,7 +5,7 @@
   bottom: 0;
   right:0;
   left:0;
-  background-image: url("BeerNMunchies pics/bar.JPEG");
+  background-image: url("BeerNMunchiespics/bar.JPEG");
   background-position: right;
 }
 
@@ -30,7 +30,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-image: url("BeerNMunchies pics/instagram.png");
+  background-image: url("BeerNMunchiespics/instagram.png");
   background-size: cover;
 }
 
