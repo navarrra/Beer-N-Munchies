@@ -9,7 +9,7 @@
   background-color: grey;
   height: 768px;
   position: relative;
-  background-image: url("file:///C:/Users/navarrra/Documents/GitHub/Beer-N-Munchies/BeerNMunchies pics/homeback.jpg");
+  background-image: url("BeerNMunchiespics/homeback.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: -15em;
@@ -70,7 +70,7 @@
   width: 2.7em;
   height: 2.7em;
   margin: .7em .5em;
-  background-image: url("file:///C:/Users/navarrra/Documents/GitHub/Beer-N-Munchies/BeerNMunchies pics/menu.png");
+  background-image: url("BeerNMunchiespics/menu.png");
   background-size: contain;
   z-index: 1;
 }
@@ -133,9 +133,6 @@
  animation-delay: .5s;
 }
 
-.fadeinlist li:nth-child(5){
-  animation-delay: .6s;
-}
 
 
 .slideitem{
@@ -152,7 +149,7 @@
   width: 1.5em;
   height: 1.5em;
   margin: .5em 1em;
-  background-image: url("file:///C:/Users/navarrra/Documents/GitHub/Beer-N-Munchies/BeerNMunchies pics/close.png");
+  background-image: url("BeerNMunchiespics/close.png");
   background-size: contain;
   z-index: 3;
 }
@@ -168,26 +165,9 @@
 
 **************************************************************************************/
 
-.about{
-  background-color: #F8F8F8;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
 
-.abouttop{
-  margin-top: 1.2em;
-}
 
-.abouttitle{
-  font-style: italic;
-}
 
-.aboutsubtitle{
-  font: 27px segoe script;
-  color:black;
-  margin: -.3em 0em 0 0;
-}
 
 
 
