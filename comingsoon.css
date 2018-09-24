@@ -13,14 +13,14 @@
   margin-top: 70%;
   text-align: center;
   font-size: 38px ;
-  font-family: segoe script;
+  font-family: "segoe script";
   color: white;
 }
 
 .subtitle{
   text-align: center;
   color: rgba(255, 255, 255, .8);
-  font-family: adobe arabic;
+  font-family: "adobe arabic";
   font-size: 30px;
   margin-top: -.5em;
 }
