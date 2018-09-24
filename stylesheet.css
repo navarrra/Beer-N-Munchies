@@ -133,15 +133,12 @@
  animation-delay: .5s;
 }
 
-
-
 .slideitem{
   display: fixed;
   margin-top: 1em;
   background-color: black;
   text-align: center;
   font-size: 2em;
-
 }
 
 .close{

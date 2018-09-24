@@ -12,7 +12,8 @@
 .title{
   margin-top: 70%;
   text-align: center;
-  font: 38px segoe script;
+  font-size: 38px ;
+  font-family: segoe script;
   color: white;
 }
 
